@@ -7,7 +7,7 @@ const readline = require('readline');
 
 let args = process.argv.slice(2);
 let stringToEncode = '';
-if (args && args.length <= 0) {
+if (args.length <= 0) {
     const read1 = readline.createInterface({
         input: process.stdin,
         output: process.stdout
